@@ -15,8 +15,8 @@ class Test {
 		 //Question String Array
 		  HashMap<String, String> QuestionAns = new HashMap<String, String>();
 		  String s[] = new String[10];
-		  s[0] = (String) "{\"Id\":\"1\",\"Question\":\"Boyesh?\",\"Answer\":\"20\"}";
-		  s[1]= (String) "{\"Id\":\"2\",\"Question\":\"Ki Chai?\",\"Answer\":\"Poisa\"}";
+		  s[0] = (String) "{\"Id\":\"1\",\"Question\":\"AGE?\",\"Answer\":\"20\"}";
+		  s[1]= (String) "{\"Id\":\"2\",\"Question\":\"Gender?\",\"Answer\":\"Female\"}";
 		  int ctr=0;
 		  //Iterate over string array 
 		  for(int i = 0; i < 2;i++){
@@ -28,8 +28,8 @@ class Test {
 			  QuestionAns.put(Id,Answer);
 		  }
 		 String a[] = new String[10]; 
-		 a[0] = "{\"Name\":\"Bok\",\"Questions\":[{\"Id\":\"1\",\"Answer\":\"20\"},{\"Id\":\"2\",\"Answer\":\"Poisa\"}]}";
-		 a[1] = "{\"Name\":\"Bal\",\"Questions\":[{\"Id\":\"1\",\"Answer\":\"20\"},{\"Id\":\"2\",\"Answer\":\"Poisa\"}]}";
+		 a[0] = "{\"Name\":\"Bobby\",\"Questions\":[{\"Id\":\"1\",\"Answer\":\"20\"},{\"Id\":\"2\",\"Answer\":\"Female\"}]}";
+		 a[1] = "{\"Name\":\"Brian\",\"Questions\":[{\"Id\":\"1\",\"Answer\":\"20\"},{\"Id\":\"2\",\"Answer\":\"Female\"}]}";
 		 
 		 for(int i = 0; i < 2;i++){
 			 Object obj = JSONValue.parse(a[i]);
